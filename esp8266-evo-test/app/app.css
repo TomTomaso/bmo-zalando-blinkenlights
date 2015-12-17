@@ -1,0 +1,54 @@
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#connectingView {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: table;
+	text-align: center;
+}
+
+#connectingIndicator {
+	width:20%;
+	display: table-cell;
+	vertical-align: middle;
+	border: solid 1px;
+	background-color: #ffffff;
+}
+
+.circleBase {
+	border: 1px solid #000;
+	height: 85px;
+	
+	margin: 2px;
+
+	width: 53px;
+}
+.circleBasetest {
+	border: 1px solid #000;
+	height: 85px;
+	left: 540px;
+	margin: 2px;
+	position: absolute;
+	top: 828px;
+	width: 53px;
+}
+
+.ledOff {
+	background: black;
+}
+
+.ledOn {
+	background: white;
+}
+
+p.center {
+	text-align: center;
+}
